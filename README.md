@@ -6,22 +6,20 @@ Em web.php, as rotas chamam um método que recebe parâmetros que configuram a f
 
 Dentro dos métodos que confirmam a segurança e suas devidas verificações, vêm as rotas onde podem ter os verbos GET, POST, PUT e DELETE para puxar, enviar, ler e apagar.
 
-php
-Copiar código
 Route::get('dashboard', [UserController::class, 'index'])->name('dashboard');
+
 dashboard:
-
 Apenas a definição da URL.
+
 [UserController::class, 'index']:
-
 O método index sendo chamado da instância da controller UserController.
-->name('dashboard');:
 
+->name('dashboard');:
 Apelidando a rota.
+
 Dentro da controller, passe a view no método index e para configurar a middleware app.php:
 
-php
-Copiar código
+
 $middleware->alias([
     'UserMiddleware' => UserMiddleware::class,
 ]);
