@@ -29,3 +29,4 @@ ATENÇÃO A UTILIZAÇÃO DE LETRAS MAIÚSCULAS E MINÚSCULAS PODE ACABAR COM VOC
 2- npm install
 3- npm run dev
 4- php artisan serve
+5- .env
