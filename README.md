@@ -25,3 +25,7 @@ $middleware->alias([
 ]);
 ATENÇÃO A UTILIZAÇÃO DE LETRAS MAIÚSCULAS E MINÚSCULAS PODE ACABAR COM VOCÊ.
 
+1- composer update
+2- npm install
+3- npm run dev
+4- php artisan serve
